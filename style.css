@@ -2,6 +2,7 @@ html {
   font-family: Inter, Helvetica, Arial, sans-serif;
   font-size: 15px;
   background-color: #efefef;
+  line-height: 1.15;
 }
 body {
   margin: 0px;
@@ -133,4 +134,20 @@ a {
   padding-right: 24px;
   margin-right: auto;
   margin-left: auto;
+}
+.noi-dung-123 {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 16px;
+}
+.noi-dung-12-1 {
+  display: flex;
+  grid-template-columns: 1fr 360px;
+  gap: 24px;
+}
+p {
+  margin: 0;
+}
+.duong-dan p {
+  height: 40px;
 }
